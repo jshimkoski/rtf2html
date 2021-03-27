@@ -14,12 +14,13 @@
   </div>
 </template>
 
-<script setup>
-import Editor from "./components/Editor.vue";
-</script>
-
 <script>
+import Editor from "./components/Editor.vue";
+
 export default {
+  components: {
+    Editor
+  },
   data() {
     return {
       text: "",
