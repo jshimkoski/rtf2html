@@ -1,0 +1,22 @@
+{
+  "name": "helixhelp-editor",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 5000",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-vue": "^2.0.1",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.0.0",
+    "@tailwindcss/jit": "^0.1.1",
+    "@vitejs/plugin-vue": "^1.0.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.0-beta.12"
+  }
+}
